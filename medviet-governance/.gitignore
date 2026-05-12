@@ -1,0 +1,23 @@
+# Encryption keys — KHÔNG BAO GIỜ commit
+.vault_key
+
+# Raw PII data — không commit dữ liệu gốc có thông tin cá nhân
+data/raw/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Môi trường ảo
+.venv/
+venv/
+env/
+
+# Great Expectations local store
+great_expectations/uncommitted/
+
+# IDE
+.vscode/
+.idea/
